@@ -1,0 +1,70 @@
+@media only screen and (max-width: 920px) {
+    .carlisle2 {
+    display: flex;
+    flex-wrap: wrap;
+    };
+    .carlisle2-img{
+        width: 100%;
+    }
+  }
+.carlisle2 {
+    display: flex;
+    /* margin-top: 80px; */
+    width: 100%;
+    padding: 40px;
+    /* padding: 100px; */
+   /* max-width: 100%; */
+   /* max-height: 440px; */
+    /* height:440px ;    */
+}
+.carlisle2-img{
+    width: 100%;
+    padding-left: 40px;
+    /* width: 570px; */
+}
+
+
+.carlisle-content {
+    padding-left: 76px;
+    /* margin-left: 119px; */
+    margin-top: 58px;
+}
+
+.carlisle-content p {
+    padding-top: 10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 34px;
+    color: #494949;
+}
+
+.carlisle-content h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 49px;
+    text-transform: capitalize;
+    color: #1D1D1B;
+}
+
+.carlisle-content button {
+  
+    width: 174px;
+    height: 52px;
+    background: #003591;
+    border-radius: 3px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+}
+.carlisle-btn{
+    padding-top: 25px;
+}

@@ -1,0 +1,89 @@
+@media only screen and (max-width: 884px) {
+  .horticulture-content{
+    display: flex;
+    flex-wrap: wrap;
+
+    max-width: 100%
+
+  };
+}
+
+.case-study {
+  width: 100%;
+}
+.case-sub {
+  margin: 40px;
+  height: 700px;
+  background-image: url("./Image.png");
+  position: relative;
+  z-index: -2;
+}
+.case-sub2 h2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 49px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #1d1d1b;
+}
+.case-sub2 p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 34px;
+  text-align: center;
+  color: #494949;
+}
+
+.a {
+  padding-top: 70px;
+}
+.horticulture {
+  display: flex;
+  margin: auto;
+  max-width: 800px;
+  background: #ffffff;
+  box-shadow: 0px 10px 20px rgba(0, 74, 149, 0.08);
+  padding: 20px;
+  margin-top: -100px;
+}
+.horticulture-content {
+  display: flex;
+  align-items: center;
+}
+.horticulture-content button {
+  width: 160px;
+  height: 52px;
+  background: #003591;
+  border-radius: 3px;
+  margin-left: 50px;
+  margin-right: 59px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+.horticulture-content h2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  text-transform: capitalize;
+  color: #003591;
+}
+.horticulture-content p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #494949;
+}

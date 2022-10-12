@@ -1,0 +1,111 @@
+@media only screen and (max-width: 918px) {
+  .help-container-content{
+  display: flex;
+  flex-wrap: wrap;
+  };
+}
+
+.help-container-content {
+  display: flex;
+  gap: 170px;
+  margin: auto;
+  width: 1176px;
+  max-width: 100%;
+  padding: 20px;
+
+  margin-top: 40px;
+}
+.how-help p {
+  padding-top: 20px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #494949;
+}
+.how-help h2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 49px;
+  text-transform: capitalize;
+  color: #003591;
+}
+.Ellipse {
+  padding-top: 20px;
+  display: flex;
+}
+.Ellipse-content {
+  margin-left: 20px;
+}
+.Ellipse-content-button {
+  background: #05b4ff;
+  border-radius: 3px;
+  width: 150px;
+  height: 42px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  border: none;
+  /* padding-top: 20px; */
+  margin-top: 30px;
+}
+
+.have-question p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #494949;
+  padding-top: 20px;
+}
+.have-qs{
+  width: 200px;
+  
+}
+.have-question h5 {
+  padding-top: 20px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #003591;
+}
+.advice h2 {
+  padding: 10px;
+  background: #003591;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #ffffff;
+}
+.advice p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #494949;
+}
+.advice-content {
+  background: #003591;
+  width: 349.5px;
+  height: 86px;
+}
+.abc{
+    /* margin-top: 20px; */
+    margin-left: 80px;
+    margin-top: -20px;
+}
+

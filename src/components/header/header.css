@@ -1,0 +1,102 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 200px) {
+  .mheader {
+    
+    display: flex;
+    flex-wrap: wrap;
+  };
+  .hul{
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .mheader {
+   
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 600px;
+  };
+  .hul{
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 700px) {
+  .mheader {
+
+    display: flex;
+    flex-wrap: wrap;
+  };
+  .hul{
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+ 
+  .hul{
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .hul{
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+.header {
+  max-width: 100%;
+  /* padding: 10px; */
+  /* padding-top: 20px; */
+}
+.himg {
+  /* padding-left: 25px; */
+}
+
+.mheader {
+  align-items: center;
+  justify-content: space-around;
+  /* gap: 150px; */
+
+  background: "#FFFFFF";
+  /* display: inline-flex; */
+  padding: 15px;
+  /* padding-top: 15px; */
+  /* width: 100%; */
+ max-width: 100%;
+}
+
+
+
+.hul {
+  display: flex;
+  list-style-type: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+  gap: 40px;
+  /* justify-content: space-between; */
+}
+
+
+.hbut {
+  width: 160px;
+  height: 40px;
+  background: #003591;
+  border-radius: 3px;
+  color: #ffffff;
+}

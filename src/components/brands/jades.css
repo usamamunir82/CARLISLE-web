@@ -1,0 +1,83 @@
+@media only screen and (max-width: 918px) {
+    .jades-box{background: green;
+    display: flex;
+    flex-wrap: wrap;
+    /* width: 100%; */
+    max-width: 100%
+    
+    };
+  }
+  .brand1:hover .j_container{
+    background: red;
+    clip-path: polygon(17% 0, 19% 9%, 100% 9%, 100% 100%, 81% 100%, 50% 100%, 19% 100%, 1% 100%, 0 10%, 15% 10%);
+  }
+
+.jades_img  {
+width: 100%;
+}
+.j_container{
+    clip-path: polygon(36% 0, 37% 9%, 100% 9%, 100% 100%, 81% 100%, 50% 100%, 19% 100%, 1% 100%, 0 10%, 35% 8%);
+        
+}
+
+
+.jades-box{
+
+    padding: 50px;
+    
+    display: flex;
+    margin: auto;
+    max-width: 900px;
+    box-sizing: border-box;
+
+    gap: 40px;
+    background: #ecd8d8;
+   
+
+border: 1px solid #DBE5ED;
+}
+
+.jades-content h2{
+
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 28px;
+text-transform: capitalize;
+
+/* Blue */
+
+color: #003591;
+}
+.jades-content p{
+    padding-top: 10px;
+     font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+color: #494949;
+
+}
+.btn-jades{
+    
+    padding-top: 10px;
+   
+}
+.jades-content button{
+    
+    width: 160px;
+height: 46px;
+background: #003591;
+border-radius: 3px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+color: #FFFFFF;
+border: none;
+
+}

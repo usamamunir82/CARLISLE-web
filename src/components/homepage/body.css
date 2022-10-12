@@ -1,0 +1,112 @@
+@media only screen and (max-width: 830px) {
+  .carlisle{
+    width: 100%;
+    object-fit: cover;
+  }
+  .box{
+  /* width: 100%; */
+  max-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  };
+  .project-card{
+
+    display: flex;
+    background-color: #f59c00;
+    /* flex-direction: column; */
+  }
+} 
+.box {
+  /* width: 100%; */
+  max-width: 840px;
+  margin: auto;
+  background: #ffffff;
+  border: 1px solid rgba(0, 74, 149, 0.1);
+  box-shadow: 0px 10px 20px rgba(0, 74, 149, 0.08);
+  border-radius: 4px;
+  display: flex;
+  margin-top: -86px;
+  padding: 20px;
+}
+.carlisle {
+  object-fit: cover;
+  width: 100%;
+  max-width: 100%;
+  height: 750px;
+  position: relative;
+  z-index: -1;
+}
+
+
+.epdm h2 {
+  padding: 10px;
+  width: 293px;
+  background-color: blue;
+  color: #ffffff;
+}
+.epdm p{
+  padding: 15px;
+  text-align: justify;
+  width: 293px;
+  padding-top: 15px;
+}
+.project-about h3 {
+  padding-left: 140px;
+  padding-top: 20px;
+
+}
+
+.card {
+  padding-top: 10px;
+  display: flex;
+  padding-left: 20px;
+  gap: 10px;
+  text-align: center;
+
+}
+
+.flat-roof {
+  box-sizing: border-box;
+  width: 150px;
+  background: #ffffff;
+}
+
+
+.facedes {
+  box-sizing: border-box;
+  background: #f6f6f6;
+  width: 150px;
+}
+
+.structural-water {
+  
+  box-sizing: border-box;
+  background: #f6f6f6; 
+  width: 150px;
+  
+}
+
+
+
+.card p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+}
+.find-solution {
+  
+  width: 150px;
+  height: 40px;
+  border: none;
+  background: #f59c00;
+  border-radius: 3px;
+}
+.btn-sol{
+  padding-left: 340px;
+  /* margin-top: 20px; */
+  padding-top: 20px;  
+}
+

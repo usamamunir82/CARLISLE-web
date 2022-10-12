@@ -1,0 +1,51 @@
+
+.mob-header{
+    display: flex;
+/* width: 100%;
+max-width: 100%; */
+   
+/* margin: auto; */
+/* justify-content: space-between; */
+    /* gap: 800px;  */
+   
+    /* max-width: 1096px; */
+    /* width: 100%; */
+    padding: 20px;
+}
+
+.mob-nav-hamburger{
+    display: flex;
+   justify-content: space-between;
+
+    /* max-width: 100%; */
+    width: 100%;
+    /* margin: auto; */
+   
+
+    /* padding-left: 800px; */
+    /* padding-left: 800px; */
+}
+.navmob-hul{
+    list-style-type: none;
+    padding: 20px;
+    font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+}
+.navmob-hul li{
+padding: 10px;
+}
+.navmob-hbuton{
+    padding-left: 20px;
+    /* padding-top: 10px; */
+}
+.navmob-hbut{
+    width: 160px;
+    height: 40px;
+    background: #003591;
+    border-radius: 3px;
+    color: #ffffff;
+}
