@@ -1,5 +1,7 @@
 import "./brands.css";
 import "./jades.css";
+import { BsFillCaretUpFill } from "react-icons/bs";
+import IconSwitch from "react-disable-icon"
 import pics from "./jades.png";
 import pic1 from "./Rectangle 151.jpg";
 import pic2 from "./Rectangle 152.jpg";
@@ -13,17 +15,24 @@ import { useState } from "react";
 
 const Brands = () => {
   const [jadesdata, setjadesData] = useState({
-    id: "",
+    id: "2",
     name: "HERTALAN",
     img: pic2,
     subimg: subpic2,
     details:
       "HERTALAN® ist die einzige Dichtungsbahn, die in einer beispiellosen Materialkombination aus dem Synthesekautschuk EPDM und hochwertigem polymermodifizierten Bitumen die Vorteile beider Werkstoffe vereint. Lorem ipsum dolor sit amet...",
   });
-  const [activeCard, setActiveCard] = useState();
-  console.log(UserData);
+  const [activeCard, setActiveCard] = useState("1");
+  const [activeCard2, setActiveCard2] = useState("2");
 
-  const MouseOver = (id, user) => {
+  const [activeCard3, setActiveCard3] = useState("3");
+  const [activeCard4, setActiveCard4] = useState("4");
+
+
+  const [disabled, setDisabled] = useState(false)
+  // console.log(UserData);
+
+  const MouseOver = (ind, user) => {
     setjadesData({
       id: user.id,
       name: user.name,
@@ -31,7 +40,26 @@ const Brands = () => {
       subimg: user.subimg,
       details: user.details,
     });
-    setActiveCard(user.id);
+   if(activeCard===user.id){
+    setActiveCard(false)
+   }else
+   setActiveCard("1")
+   if(activeCard3===user.id){
+    setActiveCard3(false)
+   }else
+   setActiveCard3("3")
+   if(activeCard4===user.id){
+    setActiveCard4(false)
+   }else
+   setActiveCard4("4")
+   if(activeCard2===user.id){
+    setActiveCard2(false)
+   }else
+   setActiveCard2("2")
+
+    // setActiveCard(true)
+    // setActiveCard(user.id);
+    // className={`brand1 ${activeCard === user.id ? "bg-red" : ""}`
   };
   return (
     <div>
@@ -44,15 +72,31 @@ const Brands = () => {
           </p>
         </div>
         <div className="brands-img">
-          {UserData.map((user, id) => (
-            <div className={`brand1 ${activeCard === user.id ? "bg-red" : ""}`}>
-              <img src={user.img} onMouseOver={() => MouseOver(id, user)} />
+          {UserData.map((user, ind) => (
+            <div className="brand1" >
+              <img src={user.img} onMouseOver={() => MouseOver(ind, user)} />
               <img src={user.subimg} className="brand-subimg1" />
             </div>
           ))}
         </div>
       </div>
+<div className="icon">
+  <div >
+  {/* <IconSwitch  Icon = {<BsFillCaretUpFill/>} disabled = {disabled}    /> */}
+    
+  <BsFillCaretUpFill  className={`ico ${activeCard  ? "bg-red" :""}`}   />
+  </div>
+  <div>
+  <BsFillCaretUpFill className={`ico ${activeCard2  ? "bg2-red" :""}`} />
+  </div>
+  <div>
+  <BsFillCaretUpFill className={`ico ${activeCard3  ? "bg3-red" :""}`}/>
+  </div>
+  <div>
+  <BsFillCaretUpFill className={`ico ${activeCard4  ? "bg4-red" :""}`}/>
+  </div>
 
+</div>
       <div className="j_container">
         <div className="jades-box">
           <div className="jades_img">

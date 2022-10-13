@@ -16,9 +16,47 @@
 width: 100%;
 }
 .j_container{
-    clip-path: polygon(36% 0, 37% 9%, 100% 9%, 100% 100%, 81% 100%, 50% 100%, 19% 100%, 1% 100%, 0 10%, 35% 8%);
+    z-index: -1;
+    position: relative;
+    /* clip-path: polygon(36% 0, 37% 9%, 100% 9%, 100% 100%, 81% 100%, 50% 100%, 19% 100%, 1% 100%, 0 10%, 35% 8%); */
         
 }
+.icon{
+    /* padding-left: 60px; */
+    margin-left: 340px;
+    margin-top: -12px;
+    position: absolute;
+    margin-bottom: 60px;
+    display: flex;
+    /* margin: auto; */
+    max-width: 900px ;   
+    gap: 296px;
+    /* padding-bottom: -30px; */
+    /* background: #ecd8d8; */
+
+}
+.ico{
+    color:  #ecd8d8;
+}
+.ico2{
+    display: none;
+}
+.bg-red{
+  
+     display: none;
+  }
+  .bg2-red{
+ /* color: #003591; */
+     display: none;
+  }
+  .bg3-red{
+    /* color: #003591; */
+        display: none;
+     }
+     .bg4-red{
+        /* color: #003591; */
+            display: none;
+         }
 
 
 .jades-box{
