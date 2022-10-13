@@ -18,6 +18,16 @@
 left: 50px; */
   }
 }
+.card_image{
+  width: 100%;
+}
+.cardIcon{
+  position: absolute;
+ bottom: -44px;
+ left: 50%;
+ transform: translate(-50%, 0);
+ 
+}
 .brands h2 {
   font-family: "Roboto";
   font-style: normal;
@@ -27,9 +37,7 @@ left: 50px; */
   text-transform: capitalize;
   color: #1d1d1b;
 }
-.brands {
-  /* padding-left: 80px; */
-}
+
 .brands p {
   font-family: "Roboto";
   font-style: normal;
@@ -42,73 +50,50 @@ left: 50px; */
   /* width: 100%; */
   /* padding-left: 60px; */
   display: flex;
-  margin-top: 30px;
+  /* flex-wrap: wrap; */
+  margin-top: 30px; 
   gap: 30px;
   /* margin: auto; */
   /* padding: 20px; */
 }
 .brand_img {
   width: 100%;
-  /* padding: 20px; */
+/*  */
 }
 .brand {
   /* display: flex; */
   width: 100%;
-  padding: 40px;
-  padding-left: 80px;
+ margin-bottom: 40px;
+  
 }
 .brand-subimg1 {
   position: absolute;
   bottom: 50px;
   left: 20px;
 }
-.brand-subimg2 {
-  position: absolute;
-  bottom: 50px;
-  left: 20px;
-}
-.brand-subimg3 {
-  position: absolute;
-  bottom: 50px;
-  left: 20px;
-}
-.brand-subimg4 {
-  position: absolute;
-  bottom: 50px;
-  left: 20px;
-}
+
 .brand1 {
   width: 100%;
   position: relative;
 }
-/* .brand-subimg2{
-    position: absolute;
-    top: 130px;
-    left: 20px;
-    } */
-.brand2 {
-  width: 100%;
-  position: relative;
-}
-/* .brand-subimg3{
-        position: absolute;
-        top: 130px;
-        left: 20px;
-        } */
-.brand3 {
-  width: 100%;
-  position: relative;
-}
-/* .brand-subimg4{
-            position: absolute;
-            top: 130px;
-            left: 20px;
-            } */
-.brand4 {
-  width: 100%;
-  position: relative;
-}
 
-.bg-black{
-  background-color: black;
+ 
+
+
+
+
+.cardIcon{
+  display: flex;
+  justify-content: center;
+}
+.containerrr{
+  max-width: 1170px;
+  margin: auto;
+}
+.slop{
+  width: 10px;
+  height: 10px;
+  border-width: 40px;
+  border-color: transparent transparent blue transparent;
+  border-style: solid;
 }

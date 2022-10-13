@@ -2,8 +2,7 @@
     .jades-box{background: green;
     display: flex;
     flex-wrap: wrap;
-    /* width: 100%; */
-    max-width: 100%
+
     
     };
   }
@@ -36,7 +35,7 @@ width: 100%;
 
 }
 .ico{
-    color:  #ecd8d8;
+    color:  black;
 }
 .ico2{
     display: none;
@@ -64,8 +63,7 @@ width: 100%;
     padding: 50px;
     
     display: flex;
-    margin: auto;
-    max-width: 900px;
+ 
     box-sizing: border-box;
 
     gap: 40px;
